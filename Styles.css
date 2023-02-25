@@ -1,16 +1,94 @@
-textarea { 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --primary-color : #fde047;
+    --width-break : 600px;
+
+}
+
+main {
+
+    margin : auto;
+    padding : 2rem 2rem;
+    max-width: var(--width-break);
+}
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    width: 100%;
+}
+
+textarea {
+
+ box-sizing: border-box;
  display : block;  
- width : 80%;
- margin : 1rem;
- padding : 1rem;
+ width : 100%;
+ min-height: 20vh;
+ margin-top : 1rem;
+ padding : 2rem;
+ font-size: large;
+ text-align: center;
+
+}
+
+button {
+
+    background-color : var(--primary-color);
+    border : none;
+    margin : 1rem 0rem;
+    padding : 1rem 2rem;
+    font-size: large;
 
 }
 
 #txt-output {
-
+    box-sizing: border-box;
     display : block;
-    width : 80%;
-    margin : 1rem;
-    padding : 1rem;
+    width : 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    padding: 1rem;
+    margin : 0rem;
+    overflow: scroll;
+    text-align: center;
+}
+
+.navigation {
+
+background-color : var(--primary-color);
+color : black;
+text-align: center;
+padding : 2rem 3rem;
+
+}
+
+.navbrand {
+
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer {
+position : fixed;
+bottom : 0;
+background-color: var(--primary-color);
+color: black;
+margin-top: 1rem;
+padding : 0.5rem 3rem;
+text-align: center;
+
+}
+
+.footer-header {
+
+    font-size: 2rem;
+    font-weight: bold;
+
 }
