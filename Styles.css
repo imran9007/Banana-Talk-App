@@ -30,7 +30,7 @@ textarea {
  box-sizing: border-box;
  display : block;  
  width : 100%;
- min-height: 20vh;
+ min-height: 18vh;
  margin-top : 1rem;
  padding : 2rem;
  font-size: large;
